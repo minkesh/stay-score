@@ -1,0 +1,38 @@
+{
+  "name": "stay-score",
+  "version": "1.0.0",
+  "description": "Calculates the score of a property based on the various parameters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Hello there!'",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "stay_score",
+    "stay-score"
+  ],
+  "author": "Minkesh Jain",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.23.1",
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "path": "^0.12.7",
+    "react": "^15.2.1",
+    "react-bootstrap": "^0.29.5",
+    "react-dom": "^15.2.1",
+    "react-hot-loader": "^1.3.0",
+    "superagent": "^2.1.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1"
+  }
+}

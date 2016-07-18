@@ -1,0 +1,67 @@
+.search-div {
+  margin-top: 50px;
+  margin-left: 100px;
+  height: 60px;
+  vertical-align: middle;
+
+  .label-HID{
+    vertical-align: bottom;
+    display: inline-block;
+    color: #9B9B9B;
+    font-weight: 500;
+    font-size: 24px;
+    padding-right: 40px;
+  }
+  .search-bar {
+    padding-top: 10px;
+    display: inline-block;
+    .input-box {
+      width: 250px;
+      height: 35px;
+      border-radius: 4px;
+      vertical-align: middle;
+
+    }
+    .button {
+      margin-left: -1px;
+      height: 40px;
+      width: 49px;
+      background: #ED0973;
+      color: #ffffff;
+      border: none;
+      font-size: 18px;
+      border-radius: 4px;
+    }
+  }
+  .property-details {
+    width: 35%;
+    display: inline-block;
+    float: right;
+    .picture {
+      display: inline-block;
+      vertical-align: top;
+      width:60px;
+      height:60px;
+      border-radius:30px;
+      border: 0;
+    }
+    .label-name {
+      display: inline-block;
+      vertical-align: sub;
+      padding-left: 10px;
+      font-weight: 600;
+      font-size: 18px;
+    }
+    .link {
+      vertical-align: bottom;
+      display: inline-block;
+      a {
+        text-decoration: none;
+        color: #4A90E2;
+        font-weight: 300;
+        font-size: 14px;
+        margin-left: -80px;
+      }
+    }
+  }
+}

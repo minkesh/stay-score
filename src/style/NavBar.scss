@@ -1,0 +1,52 @@
+.top {
+  vertical-align: middle;
+  line-height: 80px;
+  font-size: 18px;
+  height: 80px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 1);
+    .stayzilla-logo{
+      display: inline-block;
+      padding-left: 50px;
+      width: 10%;
+      img {
+        vertical-align: middle;
+        width: 110px;
+        height: 40px;
+      }
+    }
+    .stay-rating{
+      vertical-align: middle;
+      width: 10%;
+      display: inline-block;
+      box-shadow: inset 0 -3px 0 0 #ed0972;
+      padding-left: 80px;
+      border-left: 1px solid #E6E6E6;
+      border-right: 1px solid #E6E6E6;
+    }
+    .profile{
+      display: inline-block;
+      vertical-align: middle;
+      float: right;
+      width: 30px;
+      padding-top: 10px;
+      padding-right: 80px;
+      .pic-circle {
+          display: inline-block;
+          width:28px;
+          height:28px;
+          border-radius:14px;
+          border: 0;
+      }
+      .caret {
+        position: absolute;
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: 10px;
+        margin-top: 30px;
+        border-top: 4px solid;
+        border-right: 4px solid transparent;
+        border-left: 4px solid transparent;
+      }
+    }
+}

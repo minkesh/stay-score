@@ -1,0 +1,73 @@
+.div-one {
+  color: #ffffff;
+  margin-top: 240px;
+  padding-top: 10px;
+  background-color: #4A4A4A;
+  height: 70px;
+  .img-div {
+    display: inline-block;
+    padding-left: 50px;
+    line-height: 30px;
+    img {
+      width: 100px;
+      height: 40px;
+    }
+    span {
+      display: block;
+      margin-top: -14px;
+      font-size: 12px;
+    }
+  }
+  .about {
+    height: 40px;
+    display: inline-block;
+    padding-left: 50px;
+    vertical-align: baseline;
+    .terms {
+      padding-top: 10px;
+    }
+  }
+
+  .support-div {
+    padding-top: 15px;
+    height: 40px;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: baseline;
+    float: right;
+    padding-right: 50px;
+    img {
+      width: 19px;
+      height: 12px;
+      padding-right: 5px;
+    }
+  }
+
+  .line-two {
+    padding-top: 5px;
+  }
+
+  .call-div {
+    padding-top: 15px;
+    height: 40px;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    padding-right: 50px;
+    img {
+      width: 16px;
+      height: 13px;
+      padding-right: 5px;
+    }
+  }
+
+}
+.div-two {
+  height: 30px;
+  background-color: #3E3E3E;
+  color: #ffffff;
+  font-size: 14px;
+  padding-top: 20px;
+  text-align: center;
+}

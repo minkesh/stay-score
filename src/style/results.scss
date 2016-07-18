@@ -1,0 +1,61 @@
+.result-div {
+  margin-top: 100px;
+  width: 80%;
+  margin-left: 50px;
+  .param-table-div {
+    margin-top: 50px;
+    border: 5px ;
+    width: 70%;
+    display: inline-block;
+    table {
+      width: 70%;
+      .field-one {
+        padding-left: 40px;
+      }
+      .field-two {
+        padding-left: 160px;
+      }
+      .field-three {
+        float: right;
+        padding-right: 60px;
+      }
+      .top-row {
+        background: #08D1ED;
+        color: #ffffff;
+      }
+      .data-row {
+        border-bottom: 1px solid #979797;
+      }
+      tr{
+        height: 40px;
+      }
+    }
+  }
+  .circle
+    {
+      display: inline-block;
+      width:260px;
+      height:260px;
+      border-radius:130px;
+      font-size:16px;
+      float: right;
+      vertical-align: middle;
+      box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 1);
+    .bold-label {
+      padding-left: 15px;
+      font-weight: 600;
+      color: #4A4A4A;
+      line-height: 150px;
+    }
+    .label {
+      color: #4A4A4A;
+      font-weight: 300;
+    }
+    .value {
+      color: #ED0973;
+      font-size: 60px;
+      padding-left: 70px;
+    }
+  }
+
+}
